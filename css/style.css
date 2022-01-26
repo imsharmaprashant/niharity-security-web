@@ -1164,6 +1164,10 @@ html[xmlns] .slides {
 	width: 100%;
 	height: auto;
 }
+.logoImages{
+	width: 20px;
+	height: 20px;
+}
 
 .tab2-services-box {
 	margin-bottom: 30px;
@@ -1859,7 +1863,6 @@ ul.timeline {
 	text-align: center;
 	margin-bottom: 50px;
 	width: 400px;
-	height: 400px;
 	border: 1px solid #EAE7E7;
 	padding: 29px 10px 20px;
 }
@@ -2185,7 +2188,6 @@ ul.timeline {
 	display: block;
 	margin: 0 auto;
 }
-
 
 
 /*-----------------------------------------------------------------*/

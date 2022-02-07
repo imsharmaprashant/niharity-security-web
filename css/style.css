@@ -152,6 +152,10 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	position:relative;
 }
 
+.empty-section {
+	position:relative;
+}
+
 .section .container {
 	position:relative;
 }
@@ -1313,6 +1317,10 @@ html[xmlns] .slides {
 	background:url(../images/parallax/timeline.jpg);
 }
 
+#blog {
+	background:url(../images/nslogoblack.png);
+}
+
 ul.timeline {
 	margin: 40px auto 0;
 	width: 100%;
@@ -1658,6 +1666,10 @@ ul.timeline {
 	padding:130px 0px 130px;
 }
 
+#empty {
+	 background:url(../images/nslogo.png) no-repeat;
+ }
+
 #cta h2 {
     color: #FFF;
     font-size: 33px;
@@ -1879,7 +1891,6 @@ ul.timeline {
 	border-radius: 50%;
 	display: inline-block;
 	margin: 0 auto;
-	background: #7EC13F none repeat scroll 0% 0%;
 }
 
 .services-box .services-desc {
@@ -2345,6 +2356,45 @@ ul.timeline {
 	font-weight: 600;
 }
 
+.contact-header {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.social-media {
+	padding: 10px;
+	margin: 0
+}
+.text{
+	color: cyan;
+	margin-right: 10px;
+
+}
+.contactInfo {
+	padding: 10px;
+	margin: 0
+}
+.row-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+.header-icon {
+	color: cyan;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 20px;
+	height:20px;
+	margin-right: 10px;
+}
+.emailLink {
+	color: cyan;
+	margin-bottom: 0;
+	height: 20px;
+}
 .breadcrumb {
 	background: none;
 	padding-top: 35px;

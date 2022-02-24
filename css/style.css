@@ -75,7 +75,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	margin-bottom: 20px;
 	font-size: 15px;
 	line-height: 25px;
-	color: #484444;
+	color: #F0EDED;
 	height: 46px;
 	width: 100%;
 	vertical-align: middle;
@@ -994,13 +994,14 @@ html[xmlns] .slides {
 	margin-bottom:50px;
 }
 
+
 .features-icon-box .features-icon {
 	position: absolute;
 	width: 60px;
 	height: 60px;
 	line-height: 41px;
 	font-size: 45px;
-	color:#7EC13F;
+	color:#000000;
 }
 
 .features-icon-box .features-info {
@@ -1667,7 +1668,7 @@ ul.timeline {
 }
 
 #empty {
-	 background:url(../images/nslogo.png) no-repeat;
+	 background:url(../images/nslogoblack.png) no-repeat;
  }
 
 #cta h2 {
@@ -1808,6 +1809,9 @@ ul.timeline {
 #team .owl-prev:hover, #team .owl-next:hover {
 	background:#3C3C3C;
 }
+#team {
+	background:url(../images/team/teamBg.jpeg) no-repeat;
+}
 
 
 /*-----------------------------------------------------------------*/
@@ -1867,7 +1871,7 @@ ul.timeline {
 
 #services {
 	padding-bottom:50px;
-	background:#FFF;
+	background:url(../images/parallax/manpowerservices.png) no-repeat;
 }
 
 .services-box {
@@ -1881,7 +1885,9 @@ ul.timeline {
 	border: 1px solid #EAE7E7;
 	padding: 20px;
 	margin-bottom: 50px !important;
+	background-color: white;
 }
+
 
 .services-box .services-icon {
 	width: 80px;
@@ -1912,6 +1918,13 @@ ul.timeline {
 	flex-wrap: wrap;
 	margin: 0 0 24px 0;
 	padding: 0;
+}
+.categoryTitle {
+	font-size: 16px;
+	font-weight: bolder;
+	margin-bottom: 25px;
+	text-decoration: underline;
+
 }
 
 
@@ -2654,6 +2667,10 @@ blockquote em {
 
 .comment-form .form-control:focus , .search-box .form-control:focus{
 	border:2px solid #B6DC93 !important;
+}
+
+.text-color-black {
+
 }
 
 

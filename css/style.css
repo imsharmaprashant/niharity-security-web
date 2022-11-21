@@ -1010,7 +1010,7 @@ html[xmlns] .slides {
 
 
 /*-----------------------------------------------------------------*/
-/* Fun Facs
+/* Fun Facts
 /*-----------------------------------------------------------------*/
 
 #facts {
@@ -1304,9 +1304,6 @@ html[xmlns] .slides {
  position: absolute;
  font-family: "FontAwesome";
 }
-
-
-
 
 
 /*-----------------------------------------------------------------*/
@@ -2951,7 +2948,7 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 
 #contact {
-	background:url(../images/parallax/contact.jpg) no-repeat;
+	background:url(../images/parallax/work3.jpg) no-repeat;
 }
 .bold {
 	font-weight: bolder;
